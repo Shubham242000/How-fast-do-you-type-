@@ -6,12 +6,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Test from  './SpeedGame/Test'
 import Test from './Test'
-import {ContextProvider} from './understandingContext'
+ 
 
 ReactDOM.render(
-  <ContextProvider>
+  
     <Test /> 
-   </ContextProvider>
+  
    ,
   document.getElementById('root')
 );
